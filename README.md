@@ -87,8 +87,8 @@ Frontend: Node.js 14.x+, React 19.x, React Router, Axios
 Backend Setup:
 Clone the repository:
 
-1.git clone 
-cd EmployeeRecord
+1.git clone https://github.com/mennahassan609/employee-management-system1.git
+cd employee-management-system1
 
 2.Create a virtual environment and install dependencies:
 python -m venv env
