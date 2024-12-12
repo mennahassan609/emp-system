@@ -1,4 +1,5 @@
 # emp-system
+
 The Employee Management System is a full-stack application that allows users to manage companies, departments, and employees. It implements role-based access control (RBAC) for security, and features a workflow for onboarding new employees. The system supports CRUD operations for all entities and integrates with both the backend API and the frontend React application.
 
 This application adheres to the following requirements:
@@ -64,7 +65,7 @@ Security Measures – Role-Based Access Control (RBAC) for Admin, Manager, and E
 Setup and Installation Prerequisites: Backend: Python 3.x, Django 5.x, Django REST Framework Frontend: Node.js 14.x+, React 19.x, React Router, Axios Backend Setup: Clone the repository:
 
 1.git clone https://github.com/mennahassan609/emp-system.git 
--cd eEmployeeRecord
+-cd EmployeeRecord
 
 2.Create a virtual environment and install dependencies: 
 -env\Scripts\activate 
