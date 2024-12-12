@@ -12,19 +12,29 @@ Backend Features:
 
 User Accounts:
 
--User information includes username, email, and role. -Supports Admin, Manager, and Employee roles.
+-User information includes username, email, and role. 
+
+-Supports Admin, Manager, and Employee roles.
 
 Company Management:
 
--CRUD operations for company records. -Tracks the number of departments and employees in each company.
+-CRUD operations for company records. 
+
+-Tracks the number of departments and employees in each company.
 
 Department Management:
 
--CRUD operations for departments. -Departments are linked to specific companies.
+-CRUD operations for departments. 
+
+-Departments are linked to specific companies.
 
 Employee Management:
 
--CRUD operations for employees. -Tracks employee information including name, email, status, and hire date. -Validations ensure required fields are filled and data formats are correct.
+-CRUD operations for employees. 
+
+-Tracks employee information including name, email, status, and hire date. 
+
+-Validations ensure required fields are filled and data formats are correct.
 
 Onboarding Workflow:
 
@@ -64,10 +74,14 @@ PATCH /api/emp_api/{id}/ Update an existing employee by their ID.
 
 **Missing Requirements (Not Implemented):**
 
-Ensure that the Department field in Employee Model only accepts departments related to the selected company. Status: Not implemented yet.
+Ensure that the Department field in Employee Model only accepts departments related to the selected company. 
+
+Status: Not implemented yet.
 
 
-Security Measures – Role-Based Access Control (RBAC) for Admin, Manager, and Employee. Status: Not implemented yet.
+Security Measures – Role-Based Access Control (RBAC) for Admin, Manager, and Employee. 
+
+Status: Not implemented yet.
 
 
 **Setup and Installation Prerequisites: Backend: Python 3.x, Django 5.x, Django REST Framework Frontend: Node.js 14.x+, React 19.x, React Router, Axios Backend Setup: Clone the repository:**
