@@ -36,17 +36,23 @@ Company:
 
 GET /api/company_api/ Retrieve a list of all companies.
 
+
 GET /api/company_api/{id}/ Retrieve a single company by its ID.
 
+
 PATCH api/company_api/{id}/ Update an existing company by its ID.
+
 
 Department:
 
 GET /api/department_api/ Retrieve a list of all departments.
 
+
 GET /api/department_api/{id}/ Retrieve a single department by its ID.
 
+
 PATCH /api/department_api/{id}/ Update an existing department by its ID.
+
 
 Employee:
 
@@ -56,15 +62,18 @@ GET /api/emp_api/{id}/ Retrieve a single employee by their ID.
 
 PATCH /api/emp_api/{id}/ Update an existing employee by their ID.
 
-Missing Requirements (Not Implemented):
+**Missing Requirements (Not Implemented):**
 
 Ensure that the Department field in Employee Model only accepts departments related to the selected company. Status: Not implemented yet.
 
+
 Security Measures – Role-Based Access Control (RBAC) for Admin, Manager, and Employee. Status: Not implemented yet.
 
-Setup and Installation Prerequisites: Backend: Python 3.x, Django 5.x, Django REST Framework Frontend: Node.js 14.x+, React 19.x, React Router, Axios Backend Setup: Clone the repository:
+
+**Setup and Installation Prerequisites: Backend: Python 3.x, Django 5.x, Django REST Framework Frontend: Node.js 14.x+, React 19.x, React Router, Axios Backend Setup: Clone the repository:**
 
 1.git clone https://github.com/mennahassan609/emp-system.git 
+
 -cd emp-system
 
 2.Run migrations to set up the database: python manage.py migrate
@@ -83,8 +92,32 @@ Frontend Setup:
 
 The frontend will now be running at http://localhost:3000/.
 
-Task Completion Checklist Backend: User Accounts Model: Implemented user authentication with roles (Admin, Manager, Employee). Company Model: Created model to store company details and track the number of departments/employees. Department Model: Created model to store department details linked to companies. Employee Model: Created model for employee details, including department validation. Validation & Business Logic: Implemented validation for required fields, email, and phone format. Automated department and employee count. API Security: Implemented JWT authentication and secured API endpoints. Frontend: Login Page: Implemented user login with token-based authentication. Company Management: Implemented company listing, viewing, editing, and deletion. Department Management: Implemented department listing, viewing, editing, and deletion. Employee Management: Implemented employee listing, creation, editing, and deletion.
+**Task Completion Checklist Backend: User Accounts Model: Implemented user authentication with roles (Admin, Manager, Employee).**
 
-Security Measures -JWT Authentication: User authentication is managed using JSON Web Tokens (JWT). Upon successful login, a token is generated and stored in localStorage. This token is used for securing API requests. -Data Protection: All sensitive data such as passwords are securely hashed before storing them in the database.
+Company Model: Created model to store company details and track the number of departments/employees. 
+
+Department Model: Created model to store department details linked to companies. 
+
+Employee Model: Created model for employee details, including department validation. 
+
+Validation & Business Logic: Implemented validation for required fields, email, and phone format. Automated department and employee count. 
+
+API Security: Implemented JWT authentication and secured API endpoints. 
+
+Frontend: 
+
+Login Page: Implemented user login with token-based authentication. 
+
+Company Management: Implemented company listing, viewing, editing, and deletion. 
+
+Department Management: Implemented department listing, viewing, editing, and deletion. 
+
+Employee Management: Implemented employee listing, creation, editing, and deletion.
+
+Security Measures
+
+-JWT Authentication: User authentication is managed using JSON Web Tokens (JWT). Upon successful login, a token is generated and stored in localStorage. This token is used for securing API requests. 
+
+-Data Protection: All sensitive data such as passwords are securely hashed before storing them in the database.
 
 employee-management-system
