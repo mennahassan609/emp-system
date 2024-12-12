@@ -63,8 +63,8 @@ Security Measures – Role-Based Access Control (RBAC) for Admin, Manager, and E
 
 Setup and Installation Prerequisites: Backend: Python 3.x, Django 5.x, Django REST Framework Frontend: Node.js 14.x+, React 19.x, React Router, Axios Backend Setup: Clone the repository:
 
-1.git clone https://github.com/mennahassan609/employee-management-system.git 
--cd employee-management-system
+1.git clone https://github.com/mennahassan609/emp-system.git 
+-cd eEmployeeRecord
 
 2.Create a virtual environment and install dependencies: 
 -env\Scripts\activate 
