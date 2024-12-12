@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 The Employee Management System is a full-stack application that allows users to manage companies, departments, and employees. It implements role-based access control (RBAC) for security, and features a workflow for onboarding new employees. The system supports CRUD operations for all entities and integrates with both the backend API and the frontend React application.
 
 This application adheres to the following requirements:
@@ -133,3 +134,6 @@ Security Measures
 -JWT Authentication: User authentication is managed using JSON Web Tokens (JWT). Upon successful login, a token is generated and stored in localStorage. This token is used for securing API requests.
 -Data Protection: All sensitive data such as passwords are securely hashed before storing them in the database.
 
+=======
+# employee-management-system
+>>>>>>> afb86c29abefcf8f81ae984f977748cf0f729283
