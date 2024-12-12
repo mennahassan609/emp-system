@@ -92,7 +92,11 @@ Frontend Setup:
 
 The frontend will now be running at http://localhost:3000/.
 
-**Task Completion Checklist Backend: User Accounts Model: Implemented user authentication with roles (Admin, Manager, Employee).**
+**Task Completion Checklist**
+
+Backend: 
+
+User Accounts Model: Implemented user authentication with roles (Admin, Manager, Employee).
 
 Company Model: Created model to store company details and track the number of departments/employees. 
 
@@ -114,7 +118,7 @@ Department Management: Implemented department listing, viewing, editing, and del
 
 Employee Management: Implemented employee listing, creation, editing, and deletion.
 
-Security Measures
+**Security Measures**
 
 -JWT Authentication: User authentication is managed using JSON Web Tokens (JWT). Upon successful login, a token is generated and stored in localStorage. This token is used for securing API requests. 
 
