@@ -67,13 +67,9 @@ Setup and Installation Prerequisites: Backend: Python 3.x, Django 5.x, Django RE
 1.git clone https://github.com/mennahassan609/emp-system.git 
 -cd emp-system
 
-2.Create a virtual environment and install dependencies: 
--env\Scripts\activate 
--pip install -r requirements.txt
+2.Run migrations to set up the database: python manage.py migrate
 
-3.Run migrations to set up the database: python manage.py migrate
-
-4.Start the Django server: python manage.py runserver
+3.Start the Django server: python manage.py runserver
 
 The backend will now be running at http://127.0.0.1:8000/.
 
