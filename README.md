@@ -14,8 +14,6 @@ User Accounts:
 
 -User information includes username, email, and role. 
 
--Supports Admin, Manager, and Employee roles.
-
 Company Management:
 
 -CRUD operations for company records. 
@@ -103,6 +101,8 @@ Frontend Setup:
 2.Install dependencies: npm install
 
 4.Start the React development server: npm start
+
+5.You need to create superuer in python shell to start using it to login
 
 The frontend will now be running at http://localhost:3000/.
 
