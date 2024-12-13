@@ -102,7 +102,7 @@ Frontend Setup:
 
 4.Start the React development server: npm start
 
-5.You need to create superuer in python shell to start using it to login
+5.You need to create superuser in python shell to start using it to login
 
 The frontend will now be running at http://localhost:3000/.
 
