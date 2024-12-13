@@ -4,7 +4,15 @@ The Employee Management System is a full-stack application that allows users to 
 
 This application adheres to the following requirements:
 
--User authentication with role-based access control (RBAC). -Management of companies, departments, and employees. -Validation of fields (e.g., email and phone number format). -Workflow for onboarding employees, handling stages like "Application Received", "Interview Scheduled", etc. -Secure API with proper error handling and cascading deletions.
+-User authentication.
+
+-Management of companies, departments, and employees. 
+
+-Validation of fields (e.g., email and phone number format). 
+
+-Workflow for onboarding employees, handling stages like "Application Received", "Interview Scheduled", etc. 
+
+-Secure API with proper error handling and cascading deletions.
 
 Features
 
