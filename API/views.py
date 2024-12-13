@@ -133,7 +133,7 @@ class UserAccountviewset(viewsets.ViewSet):
     def partial_update(self, request, pk=None, *args, **kwargs):
         try:
             user = self.queryset.get(pk=pk)
-            serializer = self.serializer_class(user, data=request.data, partial=True)  # Explicitly set partial=True
+            serializer = self.serializer_class(user, data=request.data, partial=True)
             if serializer.is_valid():
                 serializer.save()
                 return Response(serializer.data)
